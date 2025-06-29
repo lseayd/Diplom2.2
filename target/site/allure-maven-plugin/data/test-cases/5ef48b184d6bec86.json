@@ -1,0 +1,123 @@
+{
+  "uid" : "5ef48b184d6bec86",
+  "name" : "Измененние данных не авторизованным пользователем",
+  "fullName" : "UserHttpTest.changeNoAuthUserError401",
+  "historyId" : "c597a138dc8ffa8e58d39f2d87185f2d",
+  "time" : {
+    "start" : 1751202345502,
+    "stop" : 1751202346801,
+    "duration" : 1299
+  },
+  "description" : "Проверяем, что код ответа 401 и сообщение ошибки",
+  "descriptionHtml" : "<p>Проверяем, что код ответа 401 и сообщение ошибки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что код ответа 401 и сообщение ошибки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1751202345505,
+        "stop" : 1751202345827,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@6dbdeb69"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение пользователя",
+      "time" : {
+        "start" : 1751202345828,
+        "stop" : 1751202346063,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@6dbdeb69"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1751202346090,
+        "stop" : 1751202346801,
+        "duration" : 711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@6dbdeb69"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserHttpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeNoAuthUserError401"
+  }, {
+    "name" : "suite",
+    "value" : "UserHttpTest"
+  }, {
+    "name" : "host",
+    "value" : "113838797in"
+  }, {
+    "name" : "thread",
+    "value" : "93989@113838797in.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ef48b184d6bec86.json",
+  "parameterValues" : [ ]
+}

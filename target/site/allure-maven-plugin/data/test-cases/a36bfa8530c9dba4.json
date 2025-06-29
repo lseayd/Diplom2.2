@@ -1,0 +1,105 @@
+{
+  "uid" : "a36bfa8530c9dba4",
+  "name" : "Создание курьера со всеми обязательными полями",
+  "fullName" : "UserHttpTest.createUser",
+  "historyId" : "1547fd5dec80ab7e46f76e8d008f54e",
+  "time" : {
+    "start" : 1751202351245,
+    "stop" : 1751202352233,
+    "duration" : 988
+  },
+  "description" : "Проверяем, что код ответа 200 и токен не null",
+  "descriptionHtml" : "<p>Проверяем, что код ответа 200 и токен не null</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что код ответа 200 и токен не null",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1751202351246,
+        "stop" : 1751202351606,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@5ab3f611"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1751202351627,
+        "stop" : 1751202352232,
+        "duration" : 605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@5ab3f611"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserHttpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUser"
+  }, {
+    "name" : "suite",
+    "value" : "UserHttpTest"
+  }, {
+    "name" : "host",
+    "value" : "113838797in"
+  }, {
+    "name" : "thread",
+    "value" : "93989@113838797in.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a36bfa8530c9dba4.json",
+  "parameterValues" : [ ]
+}
