@@ -1,0 +1,162 @@
+{
+  "uid" : "884a92089ce3bc53",
+  "name" : "Получение списка заказов конкретного Не авторизованного пользователя",
+  "fullName" : "OrderHttpTest.getOrdersUnAuthorizedUser",
+  "historyId" : "c5692effbc8349388af92820c8dde1f1",
+  "time" : {
+    "start" : 1751202361964,
+    "stop" : 1751202365747,
+    "duration" : 3783
+  },
+  "description" : "Проверяем, что код ответа 401 и проверяем текст ошибки",
+  "descriptionHtml" : "<p>Проверяем, что код ответа 401 и проверяем текст ошибки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что код ответа 401 и проверяем текст ошибки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1751202361976,
+        "stop" : 1751202362288,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@4fea23d6"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка всех доступных ингредиентов",
+      "time" : {
+        "start" : 1751202362288,
+        "stop" : 1751202362495,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@4fea23d6"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1751202362495,
+        "stop" : 1751202364937,
+        "duration" : 2442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{ingredients=[61c0c5a71d1f82001bdaaa6d, 61c0c5a71d1f82001bdaaa6f, 61c0c5a71d1f82001bdaaa70]}"
+      }, {
+        "name" : "user",
+        "value" : "User@4fea23d6"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка заказов пользователя",
+      "time" : {
+        "start" : 1751202364938,
+        "stop" : 1751202365103,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@4fea23d6"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1751202365117,
+        "stop" : 1751202365746,
+        "duration" : 629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@4fea23d6"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderHttpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrdersUnAuthorizedUser"
+  }, {
+    "name" : "suite",
+    "value" : "OrderHttpTest"
+  }, {
+    "name" : "host",
+    "value" : "113838797in"
+  }, {
+    "name" : "thread",
+    "value" : "93989@113838797in.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "884a92089ce3bc53.json",
+  "parameterValues" : [ ]
+}

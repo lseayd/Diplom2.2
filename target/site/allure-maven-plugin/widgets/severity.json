@@ -1,0 +1,151 @@
+[ {
+  "uid" : "e1ebc0a3b95e160e",
+  "name" : "Создание курьера, который уже существует",
+  "time" : {
+    "start" : 1751202347999,
+    "stop" : 1751202349162,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b626153c89150a",
+  "name" : "Измененние данных авторизованным пользователем",
+  "time" : {
+    "start" : 1751202349436,
+    "stop" : 1751202351007,
+    "duration" : 1571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b41bf59229c00405",
+  "name" : "Создаем заказ с неверным хешем ингредиента",
+  "time" : {
+    "start" : 1751202352285,
+    "stop" : 1751202353942,
+    "duration" : 1657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a36bfa8530c9dba4",
+  "name" : "Создание курьера со всеми обязательными полями",
+  "time" : {
+    "start" : 1751202351245,
+    "stop" : 1751202352233,
+    "duration" : 988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4bb09e2f6f9039",
+  "name" : "Получение списка заказов конкретного авторизованного пользователя",
+  "time" : {
+    "start" : 1751202353946,
+    "stop" : 1751202358163,
+    "duration" : 4217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee695ab2a2720679",
+  "name" : "Авторизация под существующим пользователем",
+  "time" : {
+    "start" : 1751202346809,
+    "stop" : 1751202347995,
+    "duration" : 1186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "884a92089ce3bc53",
+  "name" : "Получение списка заказов конкретного Не авторизованного пользователя",
+  "time" : {
+    "start" : 1751202361964,
+    "stop" : 1751202365747,
+    "duration" : 3783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ef48b184d6bec86",
+  "name" : "Измененние данных не авторизованным пользователем",
+  "time" : {
+    "start" : 1751202345502,
+    "stop" : 1751202346801,
+    "duration" : 1299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9fa71486cbe9066",
+  "name" : "Создаем заказ без авторизации",
+  "time" : {
+    "start" : 1751202365759,
+    "stop" : 1751202367074,
+    "duration" : 1315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0b6f1b9b2992b4",
+  "name" : "Создаем заказ с авторизацией, но без ингредиентов",
+  "time" : {
+    "start" : 1751202367080,
+    "stop" : 1751202368410,
+    "duration" : 1330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a35244a9682bc4f7",
+  "name" : "Авторизация под не существующим пользователем",
+  "time" : {
+    "start" : 1751202351019,
+    "stop" : 1751202351242,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2143ad972c2856de",
+  "name" : "Создание курьера без поля name",
+  "time" : {
+    "start" : 1751202339091,
+    "stop" : 1751202345122,
+    "duration" : 6031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a2fe18412bf9452",
+  "name" : "Создание курьера без поля password",
+  "time" : {
+    "start" : 1751202345225,
+    "stop" : 1751202345491,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8633ec03b45c2369",
+  "name" : "Создаем заказ с авторизацией и ингредиентами",
+  "time" : {
+    "start" : 1751202358172,
+    "stop" : 1751202361955,
+    "duration" : 3783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c29b22f9ec5cdf96",
+  "name" : "Создание курьера без поля email",
+  "time" : {
+    "start" : 1751202349171,
+    "stop" : 1751202349434,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,144 @@
+{
+  "uid" : "b9fa71486cbe9066",
+  "name" : "Создаем заказ без авторизации",
+  "fullName" : "OrderHttpTest.createOrderNotAuthorizedUser",
+  "historyId" : "83baabc56761bd27e8b88e61e792dade",
+  "time" : {
+    "start" : 1751202365759,
+    "stop" : 1751202367074,
+    "duration" : 1315
+  },
+  "description" : "Проверяем, что код ответа 200",
+  "descriptionHtml" : "<p>Проверяем, что код ответа 200</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что код ответа 200",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1751202365763,
+        "stop" : 1751202366075,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@54fd5759"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка всех доступных ингредиентов",
+      "time" : {
+        "start" : 1751202366077,
+        "stop" : 1751202366282,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@54fd5759"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1751202366283,
+        "stop" : 1751202366476,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{ingredients=[61c0c5a71d1f82001bdaaa6d, 61c0c5a71d1f82001bdaaa6f, 61c0c5a71d1f82001bdaaa70]}"
+      }, {
+        "name" : "user",
+        "value" : "User@54fd5759"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1751202366477,
+        "stop" : 1751202367073,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@54fd5759"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderHttpTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderNotAuthorizedUser"
+  }, {
+    "name" : "suite",
+    "value" : "OrderHttpTest"
+  }, {
+    "name" : "host",
+    "value" : "113838797in"
+  }, {
+    "name" : "thread",
+    "value" : "93989@113838797in.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9fa71486cbe9066.json",
+  "parameterValues" : [ ]
+}
